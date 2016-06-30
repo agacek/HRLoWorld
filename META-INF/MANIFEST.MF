@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: HRLoWorld
+Bundle-SymbolicName: HRLoWorld;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: hrloworld.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.osate.aadl2,
+ org.eclipse.xtext.ui,
+ org.osate.xtext.aadl2.properties;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
